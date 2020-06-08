@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3561684986AF6D57044757D4 /* Pods_Meraki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA185EE57E617B3C609EAAC4 /* Pods_Meraki.framework */; };
 		75DBD320248DD3310075AB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DBD31F248DD3310075AB0F /* AppDelegate.swift */; };
 		75DBD322248DD3310075AB0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DBD321248DD3310075AB0F /* SceneDelegate.swift */; };
-		75DBD324248DD3310075AB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DBD323248DD3310075AB0F /* ViewController.swift */; };
 		75DBD327248DD3310075AB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DBD325248DD3310075AB0F /* Main.storyboard */; };
 		75DBD329248DD3330075AB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DBD328248DD3330075AB0F /* Assets.xcassets */; };
 		75DBD32C248DD3330075AB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DBD32A248DD3330075AB0F /* LaunchScreen.storyboard */; };
+		75DBD334248DD59A0075AB0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75DBD333248DD59A0075AB0F /* GoogleService-Info.plist */; };
+		75DBD33A248DE1380075AB0F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DBD339248DE1380075AB0F /* Login.storyboard */; };
+		75DBD33C248DF4EB0075AB0F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DBD33B248DF4EB0075AB0F /* LoginViewController.swift */; };
+		75DBD340248E0F860075AB0F /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DBD33F248E0F860075AB0F /* CreateUsernameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36E531CBE37BF7515096CE33 /* Pods-Meraki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meraki.debug.xcconfig"; path = "Target Support Files/Pods-Meraki/Pods-Meraki.debug.xcconfig"; sourceTree = "<group>"; };
 		75DBD31C248DD3310075AB0F /* Meraki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meraki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DBD31F248DD3310075AB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75DBD321248DD3310075AB0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75DBD323248DD3310075AB0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75DBD326248DD3310075AB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75DBD328248DD3330075AB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DBD32B248DD3330075AB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75DBD32D248DD3330075AB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DBD333248DD59A0075AB0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75DBD339248DE1380075AB0F /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		75DBD33B248DF4EB0075AB0F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		75DBD33F248E0F860075AB0F /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		BA185EE57E617B3C609EAAC4 /* Pods_Meraki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meraki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D3ABA4E48681F898713E6A /* Pods-Meraki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meraki.release.xcconfig"; path = "Target Support Files/Pods-Meraki/Pods-Meraki.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3561684986AF6D57044757D4 /* Pods_Meraki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				75DBD31E248DD3310075AB0F /* Meraki */,
 				75DBD31D248DD3310075AB0F /* Products */,
+				B9110AD9382B2F53126A5538 /* Pods */,
+				82457C2B769C2611A6A4A38A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +71,65 @@
 			children = (
 				75DBD31F248DD3310075AB0F /* AppDelegate.swift */,
 				75DBD321248DD3310075AB0F /* SceneDelegate.swift */,
-				75DBD323248DD3310075AB0F /* ViewController.swift */,
-				75DBD325248DD3310075AB0F /* Main.storyboard */,
+				75DBD337248DE0880075AB0F /* Models */,
+				75DBD335248DE0700075AB0F /* Views */,
+				75DBD336248DE07E0075AB0F /* Controllers */,
+				75DBD338248DE0950075AB0F /* Storyboards */,
 				75DBD328248DD3330075AB0F /* Assets.xcassets */,
-				75DBD32A248DD3330075AB0F /* LaunchScreen.storyboard */,
 				75DBD32D248DD3330075AB0F /* Info.plist */,
+				75DBD333248DD59A0075AB0F /* GoogleService-Info.plist */,
 			);
 			path = Meraki;
+			sourceTree = "<group>";
+		};
+		75DBD335248DE0700075AB0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75DBD336248DE07E0075AB0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75DBD33B248DF4EB0075AB0F /* LoginViewController.swift */,
+				75DBD33F248E0F860075AB0F /* CreateUsernameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75DBD337248DE0880075AB0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75DBD338248DE0950075AB0F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				75DBD325248DD3310075AB0F /* Main.storyboard */,
+				75DBD339248DE1380075AB0F /* Login.storyboard */,
+				75DBD32A248DD3330075AB0F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		82457C2B769C2611A6A4A38A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA185EE57E617B3C609EAAC4 /* Pods_Meraki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9110AD9382B2F53126A5538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36E531CBE37BF7515096CE33 /* Pods-Meraki.debug.xcconfig */,
+				F1D3ABA4E48681F898713E6A /* Pods-Meraki.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75DBD330248DD3330075AB0F /* Build configuration list for PBXNativeTarget "Meraki" */;
 			buildPhases = (
+				C33A5B1E7AF49522476C5779 /* [CP] Check Pods Manifest.lock */,
 				75DBD318248DD3310075AB0F /* Sources */,
 				75DBD319248DD3310075AB0F /* Frameworks */,
 				75DBD31A248DD3310075AB0F /* Resources */,
+				47CAE1CE68AF692C6A236B41 /* [CP] Embed Pods Frameworks */,
+				BF135E321227823CCA72E99B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +194,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				75DBD32C248DD3330075AB0F /* LaunchScreen.storyboard in Resources */,
+				75DBD334248DD59A0075AB0F /* GoogleService-Info.plist in Resources */,
 				75DBD329248DD3330075AB0F /* Assets.xcassets in Resources */,
+				75DBD33A248DE1380075AB0F /* Login.storyboard in Resources */,
 				75DBD327248DD3310075AB0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47CAE1CE68AF692C6A236B41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meraki/Pods-Meraki-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meraki/Pods-Meraki-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meraki/Pods-Meraki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF135E321227823CCA72E99B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meraki/Pods-Meraki-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meraki/Pods-Meraki-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meraki/Pods-Meraki-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33A5B1E7AF49522476C5779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meraki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75DBD318248DD3310075AB0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DBD324248DD3310075AB0F /* ViewController.swift in Sources */,
+				75DBD340248E0F860075AB0F /* CreateUsernameViewController.swift in Sources */,
+				75DBD33C248DF4EB0075AB0F /* LoginViewController.swift in Sources */,
 				75DBD320248DD3310075AB0F /* AppDelegate.swift in Sources */,
 				75DBD322248DD3310075AB0F /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +412,7 @@
 		};
 		75DBD331248DD3330075AB0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E531CBE37BF7515096CE33 /* Pods-Meraki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +425,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamslam.Meraki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		75DBD332248DD3330075AB0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D3ABA4E48681F898713E6A /* Pods-Meraki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamslam.Meraki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
